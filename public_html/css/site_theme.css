@@ -1,3 +1,22 @@
+body
+{
+	background-color: ghostwhite;
+	  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+
+
+.aboutUscontent
+{
+position: relative;
+left: 0px; 
+top: 50px;
+max-width: 250px;
+padding: 35px;
+
+}
+
 .nav_bar_style
 {
 
@@ -50,7 +69,7 @@ padding: 5px;
     font-size: 15px; 
 
 }
-#logo
+#dog_logo
 {
     position: fixed;
     top: 0px;
@@ -59,8 +78,24 @@ padding: 5px;
 
 }
 
-#logo img:hover
+#dog_logo img:hover
 {
     opacity: .5; 
+
+}
+ #foot_content_style footer 
+{
+	position: relative;
+	bottom: 0px; 
+	left: 0px
+	width: 100%; 
+	height: 200px;
+	border-top: 2px solid ghostwhite;
+	top-padding:10px;
+	background-color: maroon;
+	color: white;
+
+	
+
 
 }
