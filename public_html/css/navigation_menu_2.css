@@ -1,0 +1,66 @@
+.nav_bar_style
+{
+
+    font-size: 12px;
+    font-weight: bold; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
+    background-color: maroon;
+    position: fixed;
+    top:0px;
+    left: 200px; 
+    min-width: 550px;
+    min-height: 75px;
+    max-width: 725px; 
+    max-height: 115px; 
+    border: 3px  solid ghostwhite ;
+    border-radius: 25px; 
+
+}
+
+
+.nav_bar_style ul 
+{
+  padding: 3px 3px  ; 
+}
+
+.nav_bar_style  li 
+{ 
+display: inline; 
+padding: 5px; 
+}
+.nav_bar_style   a 
+{
+    text-decoration: none;
+    color: ghostwhite;
+    padding: 3px 3px 3px 3px;
+}
+ .nav_bar_style  a:visited  
+ {
+    color: royalblue;  
+
+}
+
+
+
+.nav_bar_style a:hover
+{
+    
+    color: ghostwhite ;
+    font-size: 15px; 
+
+}
+#logo
+{
+    position: fixed;
+    top: 0px;
+    left: 130px;
+
+
+}
+
+#logo img:hover
+{
+    opacity: .5; 
+
+}

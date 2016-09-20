@@ -1,0 +1,17 @@
+body
+{
+	background-color: ghostwhite;
+	  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.articles_posting 
+{
+position: relative;
+left: 0px; 
+top: 50px;
+max-width: 250px;
+padding: 35px;
+
+}
+
