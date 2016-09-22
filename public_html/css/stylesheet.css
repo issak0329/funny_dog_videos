@@ -5,6 +5,46 @@ h1 {
 }
 
 body {
-    background-color: #D1DBBD ;
+    background-color: #ECF0F1 ;
+    border-style: solid;
+    border-color: #E74C3C;
     
 }
+
+table, th, td {
+    border: 2px solid;
+    border-color: #3498DB;
+}
+
+ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #2980B9;
+    border: 2px solid #555;
+    
+    
+}
+
+li {
+    float: left;
+    
+    
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 10px 16px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+    
