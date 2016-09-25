@@ -4,10 +4,17 @@ h1 {
     
 }
 
+h2 {
+    font-size: 15px;
+
+}
+
 body {
-    background-color: #ECF0F1 ;
+    background-color: #F2E8DA ;
     border-style: solid;
     border-color: #E74C3C;
+    padding: 5px;
+    
     
 }
 
@@ -46,5 +53,16 @@ li a {
 li a:hover {
     background-color: #555;
     color: white;
+}
+
+.words {
+    background-color: white;
+    padding: 5px;
+    
+}
+
+ #theheader {
+    color: red;
+    
 }
     
