@@ -5,7 +5,26 @@ body
 
 }
 
+h6
+{
+    text-decoration: underline;
+    padding: 0px;
 
+}
+
+.site_header_style
+{
+    position:absolute;
+    top: 55px; 
+    left:400px;
+    border: 3px solid ghostwhite; 
+    background-color: maroon;
+    color: ghostwhite; 
+
+
+}
+
+/* this class below is being used to style all pargraphs on site, except footer,video description. */
 
 .aboutUscontent
 {
@@ -13,8 +32,7 @@ position: relative;
 left: 0px; 
 top: 50px;
 max-width: 450px;
-padding: 27px;
-border-width:   
+padding: 27px;  
 
 }
 
@@ -26,7 +44,7 @@ border-width:
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: left;
     background-color: maroon;
-    position: fixed;
+    position: absolute;
     top:0px;
     left: 200px; 
     min-width: 550px;
@@ -88,7 +106,7 @@ padding: 5px;
 
 #logo
 {
-    position: fixed;
+    position: absolute;
     top: 0px;
     left: 130px;
 
@@ -100,23 +118,33 @@ padding: 5px;
     opacity: .5; 
 
 }
- #foot_content_style footer 
+ .foot_content_style footer
 {
 	position: relative;
 	bottom: 0px; 
-	left: 0px
+	left: 0px;
 	width: 100%; 
-	height: 200px;
-	border-top: 2px solid ghostwhite;
-	top-padding:10px;
+	height: 120px;
 	background-color: maroon;
 	color: white;
 
 
 }
-#dog_videos_section
-{
-    /* */
 
-    padding:10px;
+.items_table_1
+{
+background-color: black; 
+color:ghostwhite;
 }
+
+
+.items_table_2 
+{
+
+background-color: darkgrey; 
+color:ghostwhite;
+
+
+}
+
+
