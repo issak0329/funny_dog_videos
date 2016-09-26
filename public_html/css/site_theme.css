@@ -130,7 +130,11 @@ padding: 5px;
 
 
 }
+.items_table table
+{
+border:2px solid black;
 
+}
 .items_table_1
 {
 background-color: black; 
@@ -146,5 +150,6 @@ color:ghostwhite;
 
 
 }
+
 
 
