@@ -57,7 +57,7 @@ padding: 5px;
 }
  .nav_bar_style  a:visited  
  {
-    color: royalblue;  
+    color: silver;  
 
 }
 
@@ -70,6 +70,22 @@ padding: 5px;
     font-size: 15px; 
 
 }
+.link_styling li
+{
+    display: block;
+    padding: 5px;
+
+}
+.link_styling a:link
+{
+    color: forestgreen; 
+
+}
+.link_styling a:visited
+{
+    color: maroon; 
+}
+
 #logo
 {
     position: fixed;
@@ -96,7 +112,11 @@ padding: 5px;
 	background-color: maroon;
 	color: white;
 
-	
 
+}
+#dog_videos_section
+{
+    /* */
 
+    padding:10px;
 }
