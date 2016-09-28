@@ -14,19 +14,49 @@
 </head>
 
 <body>
+ <div class = nav_section_boot>
+    <nav>
+    <ul>
+        <li>
+            <a href="index.html">Index</a>
+        </li>
+    </ul>
+    </nav>
+    </div>
     
 <form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
-</form>
-
-<form>
-  <input type="radio" name="gender" value="male" checked> Male<br>
-  <input type="radio" name="gender" value="female"> Female<br>
-  <input type="radio" name="gender" value="other"> Other
+<table>
+<tr>
+  <td><label for="firstname">First Name:</label></td>
+</tr>
+<tr>
+  <td><input type="text" id="firstname" name="firstname" placeholder="First Name"></td>
+</tr>
+<tr>
+  <td><label for="firstname">Last Name:</label></td>
+</tr>
+  <tr>
+  <td><input type="text" id="lastname" name="lastname" placeholder="Last Name"></td>
+  </tr>
+  <tr>
+ <td id="gender_section">Gender</td>
+  </tr>
+  <tr>
+  <td><label for="gender_check1"> Male</label></td>
+  <td><input type="radio" id="gender_check1" name="gender_check1" value="male"></td>
+  </tr>
+  <tr>
+   <td><label for="gender_check2"> Female</label></td>
+  <td><input type="radio" id="gender_check2" name="gender_check2" value="female"></td>
+  </tr>
+  <tr>
+   <td><label for="gender_check3"> Other</label></td>
+  <td><input type="radio"  id="gender_check3" name="gender_check3" value="other"></td>
+  </tr>
+  <tr>
+   <td><input type="submit" value="Sign Up"></td>
+  </tr>
+</table>
 </form>
 
 <div  class="footer_section">
@@ -36,6 +66,6 @@
         Email: funnydogvideos@thisisntarealemail.com<br />
         Copyright 2016 by Funny Dog Videos&trade;
 </footer>
-</div
+</div>
 </body>
 </html>
