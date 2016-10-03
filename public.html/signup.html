@@ -27,21 +27,28 @@
 
 <body>
 
-<p>Want to be a part of our organization? Sign up here!</p>
-    
-<form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname">
-  <input type="submit" value="Submit">
-</form>
+<h1>Want to be a part of our organization? Sign up here!</h1>
 
 <form>
+  <div class="form-group">
+    <label for="email">First Name:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="email">Last Name:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  
+  <form>
   <input type="radio" name="gender" value="male" checked> Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
   <input type="radio" name="gender" value="other"> Other
 </form>
+
+  
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+    
 
 </body>
 </html>
