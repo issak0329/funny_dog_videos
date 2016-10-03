@@ -14,6 +14,7 @@
 </head>
 
 <body>
+
  <div class = nav_section_boot>
     <nav>
     <ul>
@@ -23,42 +24,46 @@
     </ul>
     </nav>
     </div>
-    
-<form>
-<table>
-<tr>
-  <td><label for="firstname">First Name:</label></td>
-</tr>
-<tr>
-  <td><input type="text" id="firstname" name="firstname" placeholder="First Name"></td>
-</tr>
-<tr>
-  <td><label for="firstname">Last Name:</label></td>
-</tr>
-  <tr>
-  <td><input type="text" id="lastname" name="lastname" placeholder="Last Name"></td>
-  </tr>
-  <tr>
- <td id="gender_section">Gender</td>
-  </tr>
-  <tr>
-  <td><label for="gender_check1"> Male</label></td>
-  <td><input type="radio" id="gender_check1" name="gender_check1" value="male"></td>
-  </tr>
-  <tr>
-   <td><label for="gender_check2"> Female</label></td>
-  <td><input type="radio" id="gender_check2" name="gender_check2" value="female"></td>
-  </tr>
-  <tr>
-   <td><label for="gender_check3"> Other</label></td>
-  <td><input type="radio"  id="gender_check3" name="gender_check3" value="other"></td>
-  </tr>
-  <tr>
-   <td><input type="submit" value="Sign Up"></td>
-  </tr>
-</table>
-</form>
+ <div class="container-fluid">   
+<form class="form-inline">
+  <div class="form-group">
+    <table>
 
+    <tr>  
+      <td><label for="firstname">First Name:</label></td>
+      <td><input type="text"  class="form-control" id="firstname" name="firstname" placeholder="First Name"></td>
+    </tr>
+
+      <tr>  
+      <td><label for="firstname">Last Name:</label></td>
+      <td><input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"></td>    
+       </tr>
+     
+      </table>
+       </div>
+    <fieldset>
+    <table>
+      <tr>
+     <td id="gender_section">Gender</td>
+      </tr>
+      <tr>
+      <td><label for="gender_check1">Male&nbsp;</label></td>
+      <td><input type="radio" id="gender_check1" name="gender_check1" value="male"></td>
+      </tr>
+      <tr>
+       <td><label for="gender_check2">Female &nbsp;</label></td>
+      <td><input type="radio" id="gender_check2" name="gender_check2" value="female"></td>
+      </tr>
+      <tr>
+       <td><label for="gender_check3"> Other &nbsp;</label></td>
+      <td><input type="radio"  id="gender_check3" name="gender_check3" value="other"></td>
+      </tr>
+
+      </table>    
+       <input type="submit" value="Sign Up">
+      </fieldset>
+</form>
+</div>
 <div  class="footer_section">
 <footer>   
         <h6>Contact Us</h6>

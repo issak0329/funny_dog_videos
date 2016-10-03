@@ -7,10 +7,17 @@ label
 	text-decoration: underline;
 }
 
-.shelter_table th,td 
+.shelter_table td
 {
 	width: 170px;
-	border:	1px solid black;
+		border:	1px solid black;
 
 
+
+}
+.shelter_table th
+
+{
+
+		border:	1px solid black;
 }
