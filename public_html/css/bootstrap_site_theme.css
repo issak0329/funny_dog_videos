@@ -1,3 +1,7 @@
+body
+{
+background-color: lightgrey;
+}
 label
 {
 	font-weight: normal;
@@ -20,4 +24,187 @@ label
 {
 
 		border:	1px solid black;
+}
+.jumbotron h1
+{
+font-size: 40px; 
+ 
+
+}
+.jumbotron p
+{
+font-size: 14px; 
+ 
+
+}
+.jumbotron 
+{
+	position: relative;
+	top: 70px; 
+	left: 550px;
+	max-width: 550px;
+	max-height: 200px;
+	padding-bottom: 50px;
+	color: ghostwhite; 
+	background-color: maroon; 
+}
+
+.container-fluid h6
+{
+	text-decoration: underline;
+}
+
+/* index Styling links*/
+
+.nav_section_boot li
+{
+	text-decoration: none;
+	display: inline-block;
+	padding: 5px; 
+	padding-top: 10px; 
+	padding-left: 10px; 
+
+}
+.navbar
+{
+  font-size: 13px;
+    font-weight: bold; 
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    text-align: left;
+    background-color: maroon;
+    position: absolute;
+    left: 400px; 
+    min-width: 700px;
+    min-height: 75px;
+    max-width: 750px; 
+    max-height: 80px; 
+    border-radius: 25px; 
+}
+
+.navbar ul 
+{
+  padding: 3px 3px  ; 
+}
+
+.navbar  li 
+{ 
+display: inline; 
+padding: 5px; 
+}
+.navbar  a 
+{
+    text-decoration: none;
+    color: lightgrey;
+    padding: 3px 3px 3px 3px;
+}
+ .navbar  a:visited  
+ {
+    color: lightgrey;
+
+
+}
+
+
+
+.navbar a:hover
+{
+    
+    color: ghostwhite ;
+    font-size: 15px; 
+
+}
+#news_content
+{
+
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#nav_buttons
+{
+	position: absolute;
+	right:0px;
+	top: 0px;
+	padding-right: 5px;
+
+
+}
+.btn-lg
+{
+	background-color: maroon; 
+	color:ghostwhite;
+
+
+}
+
+#buy:hover
+{
+	background-color: firebrick; 
+	color:ghostwhite;
+	
+
+}
+
+#logIn:hover
+{
+	background-color: firebrick; 
+	color:ghostwhite;
+	
+
+}
+#signUp:hover
+{
+	background-color: firebrick; 
+	color:ghostwhite;
+	
+
+}
+#about_us
+{
+	padding-top: 15px;
+}
+#footer_section
+{
+	position: relative;
+	bottom: 0px; 
+	left: 0px;
+	z-index: 1; 
+	width: 100%; 
+	padding-top: 50px;
+	height: 120px;
+	background-color: maroon;
+	color: white;
+}
+.container-fluid
+{
+	background-color: maroon;
+	color: white;
+
+}
+#home_content
+{
+	padding-top: 25px; 
+	padding-bottom: 25px; 
+
+}
+
+.link_styling a:link
+{
+    color: forestgreen; 
+
+}
+.link_styling a:visited
+{
+    color: maroon; 
+}
+#home:hover
+{
+	background-color: firebrick; 
+	color:ghostwhite;
+
+}
+.alert-info
+{
+	background-color: maroon;
+	color: ghostwhite; 
+
 }

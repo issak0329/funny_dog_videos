@@ -1,4 +1,4 @@
-<!-- Issa Karadsheh is the navigator -->
+
 
 <!DOCTYPE html>
 
@@ -15,18 +15,20 @@
 
 <body>
 
- <div class = nav_section_boot>
+ <div class = "nav_section_boot">
     <nav>
-    <ul>
-        <li>
-            <a href="index.html">Index</a>
-        </li>
-    </ul>
+
+            <a href="home.html" class= "btn btn-grp btn-lg" id="home">Home</a>
+     
     </nav>
     </div>
- <div class="container-fluid">   
+  <div class="alert alert-info">
+    <p > You must fill out each form field in-order to be registered</p>
+  </div>
+ <div class="container">   
 <form class="form-inline">
   <div class="form-group">
+    <h1 class= "text-centered"> Sign Up</h1>
     <table>
 
     <tr>  
@@ -38,6 +40,19 @@
       <td><label for="firstname">Last Name:</label></td>
       <td><input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name"></td>    
        </tr>
+
+
+      <tr>  
+      <td><label for="sign_username">Username:</label></td>
+      <td><input type="text" class="form-control" id="sign_username" name="sign_username" placeholder="Username"></td>    
+       </tr>
+
+
+      <tr>  
+      <td><label for="sign_password">Password:</label></td>
+      <td><input type="text" class="form-control" id="sign_password" name="sign_password" placeholder="Password"></td>    
+       </tr>
+
      
       </table>
        </div>
@@ -60,11 +75,11 @@
       </tr>
 
       </table>    
-       <input type="submit" value="Sign Up">
+       <input type="submit" class=" btn btn-Primary" value="Sign Up">
       </fieldset>
 </form>
 </div>
-<div  class="footer_section">
+   <div  class="container-fluid text-center" id="foot_section">
 <footer>   
         <h6>Contact Us</h6>
         Phone: (123)456-7890<br />

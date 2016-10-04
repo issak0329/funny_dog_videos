@@ -1,4 +1,4 @@
-<!-- Brooke Schoen is the navigator -->
+
 
 <!DOCTYPE html>
 
@@ -14,34 +14,41 @@
 </head>
 
 <body>
- <div class = nav_section_boot>
+ <div class = "nav_section_boot">
     <nav>
-    <ul>
-        <li>
-            <a href="index.html">Index</a>
-        </li>
-    </ul>
+   
+            <a href="home.html" class="btn btn-grp btn-lg" id="home">Home</a>
+      
+    
     </nav>
+
     </div>
-    <form action="index.html">
+     <div class="container">
+    <form  class="form-inline form-group" action="home.html">
         <fieldset>
-            <legend>Login:</legend>
-            Username:<br>
-            <input type="text" name="username" placeholder="Username">
-            <br>
-            Password:<br>
-            <input type="password" name="password" placeholder="Password">
-            <br><br>
-            <input type="submit" value="Submit">
+            <table>
+        <tr>
+            <td><label for="signIn_username">Username</label></td>
+            <td><input type="text" class="form-control" id="signIn_username" name="signIn_username" placeholder="Username"></td>
+        </tr>
+        <tr>
+            <td><label for="signIn_password">Password</label></td>
+            <td><input type="password"  class="form-control" id="signIn_password" name="signIn_password" placeholder="Password"></td>
+        </tr>
+        <tr>
+           <td> <input class=" btn btn-Primary" type="submit" id="login_submit"  value="Log In"></td>
+        </tr>
+        </table>
          </fieldset>
     </form>
-    <div  class="footer_section">
+    </div>
+   <div  class="container-fluid text-center" id="foot_section">
 <footer>   
         <h6>Contact Us</h6>
         Phone: (123)456-7890<br />
         Email: funnydogvideos@thisisntarealemail.com<br />
         Copyright 2016 by Funny Dog Videos&trade;
 </footer>
-</div
+</div>
 </body>
 </html>
