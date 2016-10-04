@@ -27,17 +27,53 @@
 
 <body>
 
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+
+            
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+         
+          <a class="navbar-brand" href="#">Dogs!</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="pagewithvideo.html">Dog Video</a></li>
+            <li><a href="newsupdate.html">News</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="itemsforsale.html">Dog Toys For Sale</a></li>
+            <li><a href="directionsfordogshelter.html">Directions to a local dog shelter</a></li>
+            <li><a href="login.html">Login</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+     <div class="container">
+     <div class="below_menu_container">
+
 <h1>Want to be a part of our organization? Sign up here!</h1>
 
-<form>
+<form action="index.html">
   <div class="form-group">
     <label for="email">First Name:</label>
     <input type="email" class="form-control" id="email">
   </div>
   <div class="form-group">
     <label for="email">Last Name:</label>
-    <input type="email" class="form-control" id="email">
+    <input type="text" class="form-control" id="text">
   </div>
+  </form>
+
   
   <form>
   <input type="radio" name="gender" value="male" checked> Male<br>
@@ -47,7 +83,9 @@
 
   
   <button type="submit" class="btn btn-default">Submit</button>
-</form>
+
+</div>
+</div>
     
 
 </body>
